@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple AI Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Simple AI Generator</h1>
+    <textarea id="prompt" placeholder="Type your prompt here..."></textarea>
+    <div class="controls">
+      <button id="generate">Generate</button>
+      <span id="loading" class="hidden">Generating…</span>
+    </div>
+    <div id="error" class="error" role="alert"></div>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
